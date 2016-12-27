@@ -11,6 +11,8 @@ public class KalkulatorBig {
 	    BigInteger a = new BigInteger("123123123123123123123123123123");
 	    BigInteger b = new BigInteger("987654321987654321987654321987");
 	    BigInteger suma = a.add(b);
-	    System.out.println("Suma "+suma.toString());
+	    BigInteger roznica = a.subtract(b);
+	    System.out.println("Suma= "+suma.toString());
+	    System.out.println("Roznica= "+roznica.toString());
 	  }
 }
