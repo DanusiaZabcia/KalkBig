@@ -9,22 +9,18 @@ public class KalkulatorBig {
 	
 	public static void main(String[] args){
 		
-	    BigInteger a = new BigInteger("5");
-	    BigInteger b = new BigInteger("2");
-	    BigInteger c = new BigInteger("22");
-	    BigInteger suma = a.add(b);
-	    BigInteger roznica = a.subtract(b);
-	    BigInteger mnozenie = a.multiply(b);
-	    BigInteger potega= a.pow(c.intValue());
+	    BigInteger a = new BigInteger("-5898798");
+	    BigInteger b = new BigInteger("242343432432241445353");
+	    BigInteger c = new BigInteger("2");
+
 	    BigDecimal doDziel= new BigDecimal(b);
 	    BigDecimal doDziel2 = new BigDecimal(a);
-	    BigDecimal test =  doDziel2.divide(doDziel,7, RoundingMode.HALF_UP);
-	   
-	    
-	    System.out.println("Suma= "+suma.toString());
-	    System.out.println("Roznica= "+roznica.toString());
-	    System.out.println("Iloczyn= "+ mnozenie.toString());
-	    System.out.println("Potega= "+ potega.toString());
-	    System.out.println("Iloraz= "+ test.toString());
+    
+	    System.out.println("Suma= "+ a.add(b).toString());
+	    System.out.println("Roznica= "+ a.subtract(b).toString());
+	    System.out.println("Iloczyn= "+ a.multiply(b).toString());
+	    System.out.println("Potega= "+ a.pow(c.intValue()).toString());
+	    System.out.println("Iloraz= "+ doDziel.divide(doDziel2,7, RoundingMode.HALF_UP).toString());
+	    System.out.println("Wartosc bezwzgledna= " + a.abs());
 	  }
 }
