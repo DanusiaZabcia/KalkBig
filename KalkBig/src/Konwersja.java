@@ -11,12 +11,19 @@ public class Konwersja {
 		double kon2 = c/b; //konwersja automatyczna
 		String napis = "10";
 		int wynik= 20 + Integer.parseInt(napis);
+		int tekst = 223344;
+		String tesktInt= Integer.toString(tekst);
+		char kon1 = (char)a; 
+		char znak1= 100;
+		int liczba= 't';
+		char znak2 = 'k';
 		
-		char kon1 = (char)a; // byte to char
-		System.out.println(kon1); 
-		System.out.println((char) (kon1 + c)); // int na char
-		System.out.println(kon2);
-		System.out.println(wynik);
+		System.out.println("char + int + char= " +znak1+" "+liczba+" "+znak2);
+		System.out.println("byte na char= " +kon1); 
+		System.out.println("Dodanie int do char= "+(kon1 + c)); 
+		System.out.println("Dzielenie int przez double. Wynik Double= " +kon2);
+		System.out.println("Dodanie do inta przekonwertowanego na int Stringa= " +wynik);
+		System.out.println("Integer na String= " +tesktInt);
 		
 	}
 }
