@@ -24,6 +24,8 @@ public class Konwersja {
 		System.out.println("Dzielenie int przez double. Wynik Double= " +kon2);
 		System.out.println("Dodanie do inta przekonwertowanego na int Stringa= " +wynik);
 		System.out.println("Integer na String= " +tesktInt);
-		
+		/*konwersja – tworzenie wartoœci nowego typu na bazie wartoœci innego typu;
+		rzutowanie – traktowanie wartoœci danego typu tak, jakby by³a wartoœci¹ innego typu;
+		koercja – konwersja typu wartoœci przekazywanej jako argument funkcji.*/
 	}
 }
