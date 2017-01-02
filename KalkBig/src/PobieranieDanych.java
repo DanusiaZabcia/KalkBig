@@ -25,7 +25,7 @@ public class PobieranieDanych {
 		System.out.println(IMIE + ", podaj pierwsz¹ liczbê dzia³ania.");
 		ZMIENNA_A = odczyt.nextDouble();
 
-		System.out.println(IMIE + " podaj drug¹ liczbê dzia³ania.");
+		System.out.println(IMIE + ", podaj drug¹ liczbê dzia³ania.");
 
 		ZMIENNA_B = odczyt.nextDouble();
 
