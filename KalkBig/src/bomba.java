@@ -25,13 +25,27 @@ public class bomba {
 		Liczba_2= odczyt.nextInt();
 		
 		int j = Liczba_2;
-		odczyt.close();
+		
 
 		for (int g = j; g > 0; g--) {
 			System.out.println("Druga bomba wybuchnie za " + j + "sekund");
 			j--;
 		}
 		System.out.println("Bum Bum!");
-
+		odczyt.nextLine();
+		int Liczba_3;
+		
+		
+		
+		System.out.println("Podaj za ile sekund ma wybuchnac trzecia bomba");
+		Liczba_3= odczyt.nextInt();
+		odczyt.close();
+		int h= Liczba_3;
+		
+		while (h>0){
+			System.out.println("Trzecia bomba wybuchnie za " +h+ "sekund");
+			h--;
+		}
+		System.out.println("Bum Bum Bum!");
 	}
 }
