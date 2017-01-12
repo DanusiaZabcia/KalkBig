@@ -19,7 +19,12 @@ public class petle {
 			 System.out.println("Druga petla");
 			 drugi_licznik++;
 		 }while (drugi_licznik < 10);
-		  System.out.println("koniec drugiej petli");
+		  System.out.println("Koniec drugiej petli");
+		  
+		  for(int i=4 ; i<10; i++){
+			  System.out.println("To jest trzecia petla");
+		  
+		  }System.out.println("Koniec trzeciej petli");
 		 }
 		 
 	}
