@@ -10,7 +10,9 @@ public class Tablice {
 			int zmienna= liczby[i];
 			System.out.println("kolejna komórka to "+ zmienna);
 		}
-
+			int test[] = new int[10];
+			
+			test[10]=123; // celowe generowanie wyjatku
 	}
 
 }
