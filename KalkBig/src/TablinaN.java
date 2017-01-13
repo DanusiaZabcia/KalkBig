@@ -12,19 +12,23 @@ public class TablinaN {
 		 System.out.println("Podaj wielkoœæ talbicy");
 		 n= odczyt.nextInt();
 		 
+		 int b=n;
 		 int j=1;
 		 
 		 tablica= new int[n];
 		 
 		 while(n>0){ 
 			 
-			 tablica[n]=j;
+			 tablica[n-1]=j;
 			 j++;
 			 n--;
 		 }
 		 odczyt.close();
 		 
-		
+		 for(int i=0; i==b; i++){
+		 
+			 System.out.println(b+"element tablicy to "+ tablica[i]);
+		 }
 	}
 
 }
