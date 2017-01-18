@@ -39,6 +39,10 @@ public class Binarne_strumienie {
 		        	System.out.println("B³¹d zamykania strumienia");
 		        	}
 		        	System.out.println("Iloœæ sczytanych bajtów "+ iloscSczytanychBajtow );
+	
+	
+	
+	
 	}
 
 }
