@@ -1,5 +1,5 @@
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
+//import java.io.DataInputStream;
+//import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -8,12 +8,12 @@ import java.io.FileNotFoundException;
 public class Strumien_we_wy {
 
 	public static void main(String[] args) {
-		DataInputStream a = null;
-		DataOutputStream b = null;
+		FileInputStream a = null;
+		FileOutputStream b = null;
 
 		try {
-			a = new DataInputStream(new FileInputStream("binarnie.txt"));
-			b = new DataOutputStream(new FileOutputStream("przekierowane.txt"));
+			a = new FileInputStream("binarnie.txt");
+			b = new FileOutputStream("przekierowane.txt");
 		} catch (FileNotFoundException e) {
             System.out.println("Nie znaleziono takiego pliku");
         }
